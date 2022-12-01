@@ -1,21 +1,41 @@
 @import url(variables.css);
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-  height: 100vh;
-  width: 100vh;
+html, body, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
-.animation {
-  background-color: aquamarine;
-  height: 90vh;
+
+:root{
+  --light-blue: #2998ff;
+
+  /*Typograpy*/
+  --h1: 7.594rem;
+  --h2: 5.063 rem;
+  --h3: 3.375rem;
+  --h4: 2.25rem;
+  --h5: 1.5rem;
 }
-.header-animation {
-  font-size: 60px;
-  color:whitesmoke;
-  background-color: rgb(34, 155, 118);
+
+.hero{
+  background-color: var(--light-blue);
+}
+
+h1 {
+  font-size: var(--h1);
+}
+h2 {
+  font-size: var(--h2);
+}
+h3 {
+  font-size: var(--h3);
+}
+h4 {
+  font-size: var(--h4);
+}
+h5 {
+  font-size: var(--h5);
+}
+h1, h2, h3, h4, h5 {
   text-align: center;
 }
