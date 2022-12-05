@@ -8,15 +8,15 @@ html, body, * {
 
 :root{
   --black: #0000;
-  --light-purple: #ebd0f3;
-  --light-blue: #c7d9ff;
-  --dark-purple: #161130;
-  --dark-blue: #0c0a20;
+  --light-purple: #c7d9ff;
+  --light-blue: #948df5;
+  --dark-purple: #25086e;
+  --dark-blue: #09025f;
   --gray: #252c30;
 
   /*Intentions*/
   --primary: var(--light-purple);
-  --secondary: var(--dark-purple);
+  --secondary: var(--light-blue);
 
   /*Typograpy*/
   --h1: 7.594rem;
