@@ -34,7 +34,7 @@ html, body, * {
   --secondary: var(--dark-blue);
   color: rgb(170, 228, 255);
 }
-.hero{
+.storeName{
   background-color: var(--primary);
 }
 .main{
