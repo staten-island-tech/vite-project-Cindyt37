@@ -1,4 +1,5 @@
 import "../styles/style.css";
+import { menu } from "./menu";
 
 document.querySelector(".btn").addEventListener("click", function () {
   if (document.body.classList.contains("light")) {
