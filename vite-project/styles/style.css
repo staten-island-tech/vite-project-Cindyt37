@@ -76,3 +76,8 @@ h1, h2, h3, h4, h5 {
   transform: translateY(-2px);
   box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
 }
+
+#theme {
+  color: whitesmoke;
+  background-color: #252c30;
+}
