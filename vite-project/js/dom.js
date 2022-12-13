@@ -1,3 +1,4 @@
+import "../styles/style.css";
 import { menu } from "./menu";
 
 const DomSelectors = {
@@ -14,17 +15,19 @@ const DomSelectors = {
   gluten: document.getElementById("gluten"),
 };
 
-function fullMenu() {
-  menu.forEach((food) => {
+export { DomSelectors };
+
+function initial() {
+  menu.forEach((item) => {
     DomSelectors.output.insertAdjacentHTML(
       "afterbegin",
-      `<div class="menu-card">
-            <h2 class="menu-item">${food.name}</h2>
-            <img class="img" src=${food.image} alt="" class="menu-img">
-            <h3 class="item-price">${food.price}</h3>
+      `<div class="menu-card" id="${item.name}">
+            <h2 class="menu-item">${item.name}</h2>
+            <img class="img" src=${item.image} alt="" class="menu-img">
+            <h3 class="item-price">${item.price}</h3>
             <button class="btn">Add To Cart</button>
         </div>`
     );
   });
 }
-fullMenu();
+initial();

@@ -65,41 +65,63 @@ h1, h2, h3, h4, h5 {
   text-transform: uppercase;
   text-decoration: overline;
   padding: 1rem 2rem;
-  margin: 1rem;
   font-size: 1.5rem;
   border-radius: 5rem;
   transition: all 0.2s;
-  display: flex;
-  align-items: flex-end;
+  display: inline;
+  background: none;
 }
 #theme:hover {
   transform: translateY(-2px);
   box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
 }
 
-#theme {
-  color: whitesmoke;
-  background-color: #252c30;
-}
-
-#output {
-  background-color: #252c30;
-}
-
-.menu-card {
-  background-color: aliceblue;
-}
-
-.all, .brands, .flavor {
+#all, #brands, #flavor {
   text-align: left;
   text-transform: uppercase;
   text-decoration: underline;
   display: flex;
-  justify-content: space-between;
   margin: 1rem;
   font-size: 3rem;
+  justify-content: space-between;
+  background-color: transparent;
+}
+#output {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+  width: 98.5vw;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.menu-card {
+  margin-top: 20px;
+  border: 10px solid rgba(0, 87, 145, 0.459);
+  padding: 6px;
+  width: 20%;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px #7589ff98;
+  background-color: transparent;
 }
 
-.flavor {
-  justify-content: space-around;
+.btn {
+  color: rgb(164, 148, 255);
+  text-decoration: overline;
+  font-size: 30px;
+  border-color: rgb(164, 148, 255);
+  border-width: 3px;
+  box-shadow: 3.5px 3.5px rgba(231, 238, 245, 0.342);
+  transition-duration: 1s;
+}
+
+.img {
+  width: 100%;
+  display: block;
+}
+
+.filter {
+  margin-right: 10px;
 }

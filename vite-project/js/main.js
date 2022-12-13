@@ -1,4 +1,5 @@
 import "../styles/style.css";
+import "./dom";
 import { menu } from "./menu";
 
 document.querySelector(".btn").addEventListener("click", function () {
@@ -9,4 +10,8 @@ document.querySelector(".btn").addEventListener("click", function () {
     document.body.classList.add("light");
     document.body.classList.remove("dark");
   }
+});
+
+document.getElementById(".fullMenu").addEventListener("click", function () {
+  fullMenu();
 });
