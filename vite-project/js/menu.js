@@ -154,7 +154,7 @@ const menu = [
     Spicy: true,
     glutenFree: false,
     image:
-      "https://static.wixstatic.com/media/62cf85_cdb2b7e6fb9f4741a59821d1c636dc7d~mv2.png/v1/fill/w_980,h_1393,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/62cf85_cdb2b7e6fb9f4741a59821d1c636dc7d~mv2.png",
+      "https://s.cornershopapp.com/product-images/4598176.jpg?versionId=UH9fY4almB2PBRywfEiUO.wimZFrAzbV",
   },
   {
     name: "Lay's Classic",
