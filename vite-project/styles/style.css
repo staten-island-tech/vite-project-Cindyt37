@@ -8,8 +8,8 @@ html, body, * {
 
 :root{
   --black: #0000;
-  --light-purple: #c7d9ff;
-  --light-blue: #948df5;
+  --light-blue: #c7d9ff;
+  --light-purple: #948df5;
   --dark-purple: #25086e;
   --dark-blue: #09025f;
   --gray: #252c30;
@@ -26,8 +26,8 @@ html, body, * {
   --h5: 1.5rem;
 }
 .light{
-  --primary: var(--light-purple);
-  --secondary: var(--light-blue);
+  --primary: var(--light-blue);
+  --secondary: var(--light-purple);
 }
 .dark{
   --primary: var(--dark-purple);
@@ -69,6 +69,8 @@ h1, h2, h3, h4, h5 {
   transition: all 0.2s;
   display: inline;
   background: transparent;
+  color: rgb(170, 228, 255);
+  margin-top: 15px;
 }
 #theme:hover {
   transform: translateY(-2px);
@@ -80,11 +82,18 @@ h1, h2, h3, h4, h5 {
   text-align: left;
   text-transform: uppercase;
   display: flex;
-  margin: 1rem;
-  font-size: 3rem;
-  justify-content: space-between;
+  margin: 1.5rem;
+  font-size: 3.5rem;
   background-color: transparent;
 }
+
+.brandbtn, .flavorbtn, .allbtn {
+  margin-left: 20px;
+  background-color: var(--light-blue);
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+}
+
 #output {
   display: flex;
   flex-direction: row;
@@ -111,7 +120,6 @@ h1, h2, h3, h4, h5 {
   font-size: 30px;
   border-color: rgb(164, 148, 255);
   border-width: 3px;
-  box-shadow: 3.5px 3.5px rgba(231, 238, 245, 0.342);
   transition-duration: 1s;
 }
 
@@ -122,6 +130,8 @@ h1, h2, h3, h4, h5 {
 
 #addtocart {
   font-size: var(--h5);
+  background-color: var(--light-blue);
+  color: var(--secondary);
 }
 
 .filter {

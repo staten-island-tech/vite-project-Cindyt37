@@ -30,4 +30,27 @@ function initial() {
     );
   });
 }
-initial();
+
+function pringles() {
+  menu
+    .filter((pringles) => pringles.brand.includes("Pringles"))
+    .forEach((pringles) => {
+      DomSelectors.output.insertAdjacentHTML(
+        "beforeend",
+        `<<div class="menu-card" id="${pringles.name}">
+        <h5 class="menu-item">${pringles.name}</h5>
+        <img class="img" src=${pringles.image} alt="" class="menu-img">
+        <h5 class="item-price">$${pringles.price}</h5>
+        <button class="btn" id="addtocart">Add To Cart</button>
+        </div>`
+      );
+    });
+}
+
+document.getElementById("fullMenu").addEventListener("click", function () {
+  initial();
+});
+
+document.getElementById("pringles").addEventListener("click", function () {
+  pringles();
+});

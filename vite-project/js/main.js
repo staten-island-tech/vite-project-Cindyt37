@@ -2,7 +2,7 @@ import "../styles/style.css";
 import "./dom";
 import { menu } from "./menu";
 
-document.querySelector(".btn").addEventListener("click", function () {
+document.getElementById("theme").addEventListener("click", function () {
   if (document.body.classList.contains("light")) {
     document.body.classList.add("dark");
     document.body.classList.remove("light");
@@ -12,6 +12,10 @@ document.querySelector(".btn").addEventListener("click", function () {
   }
 });
 
-document.getElementById(".fullMenu").addEventListener("click", function () {
+document.getElementById("fullMenu").addEventListener("click", function () {
   fullMenu();
+});
+
+document.getElementById("pringles").addEventListener("click", function () {
+  pringles();
 });
