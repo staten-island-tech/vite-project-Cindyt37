@@ -11,11 +11,3 @@ document.getElementById("theme").addEventListener("click", function () {
     document.body.classList.remove("dark");
   }
 });
-
-document.getElementById("fullMenu").addEventListener("click", function () {
-  fullMenu();
-});
-
-document.getElementById("pringles").addEventListener("click", function () {
-  pringles();
-});
