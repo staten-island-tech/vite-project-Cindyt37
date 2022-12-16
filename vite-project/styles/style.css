@@ -71,6 +71,8 @@ h1, h2, h3, h4, h5 {
   background: transparent;
   color: rgb(170, 228, 255);
   margin-top: 15px;
+  background-color: var(--primary);
+  color: var(--light-purple);
 }
 #theme:hover {
   transform: translateY(-2px);
