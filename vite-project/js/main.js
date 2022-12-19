@@ -1,6 +1,5 @@
 import "../styles/style.css";
 import "./dom";
-import { menu } from "./menu";
 
 document.getElementById("theme").addEventListener("click", function () {
   if (document.body.classList.contains("light")) {

@@ -143,12 +143,13 @@ function gluten() {
 }
 
 function clear() {
-  DomSelectors.output.childNodes.remove();
+  DomSelectors.output.innerHTML = "";
 }
 
 initial();
 
 document.getElementById("fullMenu").addEventListener("click", function () {
+  clear();
   initial();
 });
 
@@ -158,25 +159,31 @@ document.getElementById("pringles").addEventListener("click", function () {
 });
 
 document.getElementById("takis").addEventListener("click", function () {
+  clear();
   takis();
 });
 
 document.getElementById("lays").addEventListener("click", function () {
+  clear();
   lays();
 });
 
 document.getElementById("veg").addEventListener("click", function () {
+  clear();
   veg();
 });
 
 document.getElementById("spicy").addEventListener("click", function () {
+  clear();
   spicy();
 });
 
 document.getElementById("notSpicy").addEventListener("click", function () {
+  clear();
   notSpicy();
 });
 
 document.getElementById("gluten").addEventListener("click", function () {
+  clear();
   gluten();
 });
