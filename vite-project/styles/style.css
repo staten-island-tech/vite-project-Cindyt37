@@ -28,6 +28,7 @@ html, body, * {
 .light{
   --primary: var(--light-blue);
   --secondary: var(--light-purple);
+  color:rgb(17, 8, 94);
 }
 .dark{
   --primary: var(--dark-purple);
@@ -94,6 +95,7 @@ h1, h2, h3, h4, h5 {
   background-color: var(--light-blue);
   border-radius: 20px;
   padding: 0.5rem 1rem;
+  color:rgb(17, 8, 94);
 }
 
 #output {

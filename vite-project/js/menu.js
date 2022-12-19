@@ -81,6 +81,32 @@ const menu = [
       "https://res.cloudinary.com/nassau-candy/image/upload/c_fit,w_1000,h_1000,f_auto/v1548183625/969442.jpg",
   },
   {
+    name: "Garden Veggie Straws Wavy Cheddar Sour Cream",
+    brand: "Garden Veggie Straws",
+    price: 2.5,
+    Spicy: "no",
+    glutenFree: "yes",
+    image: "https://bjs.scene7.com/is/image/bjs/299363?$bjs-Zoom$",
+  },
+  {
+    name: "Garden Veggie Straws Sour Cream & Onion",
+    brand: "Garden Veggie Straws",
+    price: 2.5,
+    Spicy: "no",
+    glutenFree: "yes",
+    image:
+      "https://storage.googleapis.com/images-cub-prd-9400d55.cub.prd.v8.commerce.mi9cloud.com/product-images/zoom/7cf18055-cb06-4b58-93e9-f0c3a88f4064.jpeg",
+  },
+  {
+    name: "Garden Veggie Straws BBQ",
+    brand: "Garden Veggie Straws",
+    price: 2.5,
+    Spicy: "no",
+    glutenFree: "yes",
+    image:
+      "https://m.media-amazon.com/images/I/51L7PwQwWnL._QL92_SH45_SS200_.jpg",
+  },
+  {
     name: "UTZ Red Hot Potato Chips",
     brand: "UTZ",
     price: 1.5,
@@ -130,6 +156,31 @@ const menu = [
     glutenFree: "no",
     image:
       "https://images.albertsons-media.com/is/image/ABS/960180967?$ng-ecom-pdp-desktop$&defaultImage=Not_Available",
+  },
+  {
+    name: "Takis Outlaw Hors-La-Loi BBQ",
+    brand: "Takis",
+    price: 3,
+    Spicy: "yes",
+    glutenFree: "no",
+    image:
+      "https://external-preview.redd.it/XXPcJ6F2kz5WGApbQtg_gwaKsNxCZC4jO4AhW1d0D0c.jpg?auto=webp&s=8fa2660fb3f791bc006999fb5db41525c69080a0",
+  },
+  {
+    name: "Takis Nitro Explosion",
+    brand: "Takis",
+    price: 3,
+    Spicy: "yes",
+    glutenFree: "no",
+    image: "https://m.media-amazon.com/images/I/81-nMJ2IWFS.jpg",
+  },
+  {
+    name: "Takis Crunchy Fajitas",
+    brand: "Takis",
+    price: 3,
+    Spicy: "yes",
+    glutenFree: "no",
+    image: "https://www.kroger.com/product/images/large/front/0075752800881",
   },
   {
     name: "Takis Fuego",
