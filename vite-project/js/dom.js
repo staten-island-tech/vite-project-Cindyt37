@@ -142,6 +142,10 @@ function gluten() {
     });
 }
 
+function clear() {
+  DomSelectors.output.childNodes.remove();
+}
+
 initial();
 
 document.getElementById("fullMenu").addEventListener("click", function () {
@@ -149,6 +153,7 @@ document.getElementById("fullMenu").addEventListener("click", function () {
 });
 
 document.getElementById("pringles").addEventListener("click", function () {
+  clear();
   pringles();
 });
 
