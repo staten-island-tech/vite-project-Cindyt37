@@ -142,7 +142,7 @@ function gluten() {
     });
 }
 
-// initial();
+initial();
 
 document.getElementById("fullMenu").addEventListener("click", function () {
   initial();
