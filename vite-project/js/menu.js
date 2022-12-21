@@ -141,14 +141,6 @@ const menu = [
     image: "https://m.media-amazon.com/images/I/71vMXtyzXYL.jpg",
   },
   {
-    name: "UTZ Honey Barbeque Potato Chips",
-    brand: "UTZ",
-    price: 1.5,
-    Spicy: "no",
-    glutenFree: "yes",
-    image: "https://m.media-amazon.com/images/I/71wowfRarVL.jpg",
-  },
-  {
     name: "Takis Zombie",
     brand: "Takis",
     price: 3,
@@ -156,6 +148,14 @@ const menu = [
     glutenFree: "no",
     image:
       "https://images.albertsons-media.com/is/image/ABS/960180967?$ng-ecom-pdp-desktop$&defaultImage=Not_Available",
+  },
+  {
+    name: "UTZ Honey Barbeque Potato Chips",
+    brand: "UTZ",
+    price: 1.5,
+    Spicy: "no",
+    glutenFree: "yes",
+    image: "https://m.media-amazon.com/images/I/71wowfRarVL.jpg",
   },
   {
     name: "Takis Outlaw Hors-La-Loi BBQ",
@@ -167,12 +167,13 @@ const menu = [
       "https://external-preview.redd.it/XXPcJ6F2kz5WGApbQtg_gwaKsNxCZC4jO4AhW1d0D0c.jpg?auto=webp&s=8fa2660fb3f791bc006999fb5db41525c69080a0",
   },
   {
-    name: "Takis Nitro Explosion",
-    brand: "Takis",
-    price: 3,
-    Spicy: "yes",
+    name: "Pringles Grilled Shrimp",
+    brand: "Pringles",
+    price: 2.5,
+    Spicy: "no",
     glutenFree: "no",
-    image: "https://m.media-amazon.com/images/I/81-nMJ2IWFS.jpg",
+    image:
+      "https://i.pinimg.com/originals/7b/82/43/7b8243af3948c8e03373efa3768331e5.jpg",
   },
   {
     name: "Takis Crunchy Fajitas",
@@ -269,13 +270,12 @@ const menu = [
     image: "https://m.media-amazon.com/images/I/61k1jZw2wiL.jpg",
   },
   {
-    name: "Pringles Grilled Shrimp",
-    brand: "Pringles",
-    price: 2.5,
-    Spicy: "no",
+    name: "Takis Nitro Explosion",
+    brand: "Takis",
+    price: 3,
+    Spicy: "yes",
     glutenFree: "no",
-    image:
-      "https://i.pinimg.com/originals/7b/82/43/7b8243af3948c8e03373efa3768331e5.jpg",
+    image: "https://m.media-amazon.com/images/I/81-nMJ2IWFS.jpg",
   },
 ];
 
