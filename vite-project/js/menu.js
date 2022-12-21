@@ -275,7 +275,7 @@ const menu = [
     Spicy: "no",
     glutenFree: "no",
     image:
-      "https://i.pinimg.com/originals/63/9c/41/639c4184e6acd1c6c772d3312cfeffcb.jpg",
+      "https://i.pinimg.com/originals/7b/82/43/7b8243af3948c8e03373efa3768331e5.jpg",
   },
 ];
 
