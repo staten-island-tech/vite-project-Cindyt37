@@ -260,6 +260,23 @@ const menu = [
     image:
       "https://ipcdn.freshop.com/resize?url=https://images.freshop.com/00028400532815/601176e86d4a8d7e205d8811ad0e6028_large.png&width=512&type=webp&quality=90",
   },
+  {
+    name: "Pringles Prawn Cocktail",
+    brand: "Pringles",
+    price: 2.5,
+    Spicy: "no",
+    glutenFree: "no",
+    image: "https://m.media-amazon.com/images/I/61k1jZw2wiL.jpg",
+  },
+  {
+    name: "Pringles Grilled Shrimp",
+    brand: "Pringles",
+    price: 2.5,
+    Spicy: "no",
+    glutenFree: "no",
+    image:
+      "https://i.pinimg.com/originals/63/9c/41/639c4184e6acd1c6c772d3312cfeffcb.jpg",
+  },
 ];
 
 export { menu };
